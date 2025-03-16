@@ -9,8 +9,40 @@ plugins {
 	kotlin("plugin.spring") version "1.9.22"
 }
 
-group = "me.nettee"
-version = "0.0.1-SNAPSHOT"
+allprojects {
+	group = "me.nettee"
+	version = "0.0.1-SNAPSHOT"
+
+	repositories {
+		mavenCentral()
+	}
+}
+
+subprojects {
+	apply(plugin = "java")
+
+	java {
+		toolchain {
+			languageVersion = JavaLanguageVersion.of(21)
+		}
+		sourceCompatibility = JavaVersion.VERSION_21
+		targetCompatibility = JavaVersion.VERSION_21
+	}
+
+	tasks.withType<JavaCompile> {
+		options.compilerArgs.add("--enable-preview")
+		options.compilerArgs.add("-Amapstruct.defaultComponentModel=spring")
+	}
+
+	configurations {
+		all {
+			exclude(group = "org.springframework.boot", module = "spring-boot-starter-logging")
+		}
+	}
+}
+
+//group = "me.nettee"
+//version = "0.0.1-SNAPSHOT"
 
 java {
 	toolchain {
@@ -113,14 +145,14 @@ tasks.named<JavaExec>("bootRun") {
 	jvmArgs("--enable-preview")
 }
 
-//추가영역
-sourceSets {
-	main {
-		java {
-			setSrcDirs(listOf("monolithic/src/main/java/me/nettee"))
-		}
-		resources {
-			setSrcDirs(listOf("monolithic/src/main/resources"))
-		}
-	}
-}
+////추가영역
+//sourceSets {
+//	main {
+//		java {
+//			setSrcDirs(listOf("monolithic/src/main/java/me/nettee"))
+//		}
+//		resources {
+//			setSrcDirs(listOf("monolithic/src/main/resources"))
+//		}
+//	}
+//}

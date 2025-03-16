@@ -1,11 +1,11 @@
 package adapter.driving.web;
 
 import lombok.RequiredArgsConstructor;
-import me.nettee.board.adapter.driving.web.dto.BoardQueryDto.BoardDetailResponse;
-import me.nettee.board.adapter.driving.web.mapper.BoardDtoMapper;
-import me.nettee.board.application.domain.type.BoardStatus;
-import me.nettee.board.application.usecase.BoardReadByStatusesUseCase;
-import me.nettee.board.application.usecase.BoardReadUseCase;
+import adapter.driving.web.dto.BoardQueryDto.BoardDetailResponse;
+import adapter.driving.web.mapper.BoardDtoMapper;
+import application.domain.type.BoardStatus;
+import application.usecase.BoardReadByStatusesUseCase;
+import application.usecase.BoardReadUseCase;
 import org.springframework.data.domain.Page;
 import org.springframework.data.domain.Pageable;
 import org.springframework.web.bind.annotation.GetMapping;
@@ -34,7 +34,7 @@ public class BoardQueryApi {
     }
 
     @GetMapping
-    public Page<me.nettee.board.application.model.BoardQueryModels.BoardSummary> getBoardsByStatuses(@RequestParam(defaultValue = "ACTIVE,SUSPENDED") Set<BoardStatus> statuses, Pageable pageable) {
+    public Page<application.model.BoardQueryModels.BoardSummary> getBoardsByStatuses(@RequestParam(defaultValue = "ACTIVE,SUSPENDED") Set<BoardStatus> statuses, Pageable pageable) {
         return boardReadByStatusesUseCase.findByStatuses(statuses, pageable);
     }
 }

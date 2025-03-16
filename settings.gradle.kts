@@ -8,3 +8,4 @@ include(
 
 findProject(":core:nettee-jpa-core")?.name = "nettee-jpa-core"
 findProject(":services:board")?.name = "board"
+findProject(":common")?.name = "common"

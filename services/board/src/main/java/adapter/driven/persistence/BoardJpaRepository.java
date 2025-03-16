@@ -1,7 +1,7 @@
 package adapter.driven.persistence;
 
-import me.nettee.board.adapter.driven.persistence.entity.BoardEntity;
-import me.nettee.board.application.domain.type.BoardStatus;
+import adapter.driven.persistence.entity.BoardEntity;
+import application.domain.type.BoardStatus;
 import org.springframework.data.domain.Page;
 import org.springframework.data.domain.PageRequest;
 import org.springframework.data.domain.Pageable;
