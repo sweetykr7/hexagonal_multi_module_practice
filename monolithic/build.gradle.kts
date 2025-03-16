@@ -31,6 +31,12 @@ dependencies {
     annotationProcessor("org.projectlombok:lombok")
     testCompileOnly("org.projectlombok:lombok")
     testAnnotationProcessor("org.projectlombok:lombok")
+
+    // database
+    runtimeOnly("org.postgresql:postgresql:42.7.4")
+
+    // flyway
+    implementation("org.flywaydb:flyway-database-postgresql")
 }
 
 tasks.test {

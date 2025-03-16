@@ -1,6 +1,6 @@
 package application.exception;
 
-import me.nettee.common.exeption.CustomException;
+import exeption.CustomException;
 
 public class BoardQueryException extends CustomException {
     public BoardQueryException(BoardQueryErrorCode errorCode) {
