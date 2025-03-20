@@ -5,9 +5,6 @@ plugins {
     id("io.spring.dependency-management") version "1.1.7"
 }
 
-group = "me.nettee"
-version = "0.0.1-SNAPSHOT"
-
 repositories {
     mavenCentral()
 }
@@ -45,6 +42,7 @@ tasks.test {
 
 tasks.bootJar {
     enabled = true
+    mainClass.set("me.nettee.Main")
 }
 
 tasks.jar {
@@ -55,6 +53,20 @@ tasks.named<JavaExec>("bootRun") {
     jvmArgs("--enable-preview")
 }
 
-application {
-    mainClass.set("me.nettee.monolithic.Main")
+tasks.withType<org.springframework.boot.gradle.tasks.bundling.BootJar> {
+    mainClass.set("me.nettee.Main")
 }
+
+//application {
+//    mainClass.set("me.nettee.Main")
+//}
+
+//tasks.withType<Jar> {
+//    manifest {
+//        attributes["Main-Class"] = "me.nettee.Main"
+//    }
+//}
+//
+//springBoot {
+//    mainClass.set("me.nettee.Main")
+//}

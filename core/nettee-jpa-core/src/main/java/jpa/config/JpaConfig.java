@@ -8,8 +8,8 @@ import org.springframework.data.jpa.repository.config.EnableJpaRepositories;
 
 @Configuration
 @EnableJpaAuditing
-@EntityScan(basePackages = "me.nettee")
-@EnableJpaRepositories(basePackages = "me.nettee")
+@EntityScan(basePackages = "nettee")
+@EnableJpaRepositories(basePackages = "nettee")
 public class JpaConfig {
 
 }

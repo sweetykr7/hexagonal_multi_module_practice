@@ -4,7 +4,8 @@ include(
         "monolithic",
         "common",
         "core:nettee-jpa-core",
-        "services:board")
+        "services:board"
+)
 
 findProject(":core:nettee-jpa-core")?.name = "nettee-jpa-core"
 findProject(":services:board")?.name = "board"
