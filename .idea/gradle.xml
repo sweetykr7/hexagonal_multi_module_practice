@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="GradleMigrationSettings" migrationVersion="1" />
+  <component name="GradleSettings">
+    <option name="linkedExternalProjectsSettings">
+      <GradleProjectSettings>
+        <option name="externalProjectPath" value="$PROJECT_DIR$" />
+        <option name="modules">
+          <set>
+            <option value="$PROJECT_DIR$" />
+            <option value="$PROJECT_DIR$/common" />
+            <option value="$PROJECT_DIR$/core/nettee-exception-handler-core" />
+            <option value="$PROJECT_DIR$/core/nettee-jpa-core" />
+            <option value="$PROJECT_DIR$/monolithic/client-api" />
+            <option value="$PROJECT_DIR$/services/board" />
+            <option value="$PROJECT_DIR$/services/board/api" />
+            <option value="$PROJECT_DIR$/services/board/api/domain" />
+            <option value="$PROJECT_DIR$/services/board/api/exception" />
+            <option value="$PROJECT_DIR$/services/board/api/readmodel" />
+            <option value="$PROJECT_DIR$/services/board/application" />
+            <option value="$PROJECT_DIR$/services/board/driven/rdb/postgresql" />
+            <option value="$PROJECT_DIR$/services/board/driving/rest/web-mvc" />
+          </set>
+        </option>
+      </GradleProjectSettings>
+    </option>
+  </component>
+</project>
