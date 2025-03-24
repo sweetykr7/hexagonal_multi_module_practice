@@ -4,6 +4,8 @@
     <modules>
       <module fileurl="file://$PROJECT_DIR$/.idea/modules/services/board/api/domain/hexagonal_multi_module_practice.board-api.domain.main.iml" filepath="$PROJECT_DIR$/.idea/modules/services/board/api/domain/hexagonal_multi_module_practice.board-api.domain.main.iml" />
       <module fileurl="file://$PROJECT_DIR$/.idea/modules/services/board/api/exception/hexagonal_multi_module_practice.board-api.exception.main.iml" filepath="$PROJECT_DIR$/.idea/modules/services/board/api/exception/hexagonal_multi_module_practice.board-api.exception.main.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/core/nettee-exception-handler-core/hexagonal_multi_module_practice.exception-handler-core.main.iml" filepath="$PROJECT_DIR$/.idea/modules/core/nettee-exception-handler-core/hexagonal_multi_module_practice.exception-handler-core.main.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/core/nettee-jpa-core/hexagonal_multi_module_practice.jpa-core.main.iml" filepath="$PROJECT_DIR$/.idea/modules/core/nettee-jpa-core/hexagonal_multi_module_practice.jpa-core.main.iml" />
     </modules>
   </component>
 </project>

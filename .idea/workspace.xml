@@ -5,11 +5,29 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="d80840ca-973a-4103-8d3b-5f2c9da0e313" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/settings.gradle.kts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/8.5/checksums/checksums.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/8.5/checksums/checksums.lock" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/8.5/checksums/md5-checksums.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/8.5/checksums/md5-checksums.bin" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/8.5/checksums/sha1-checksums.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/8.5/checksums/sha1-checksums.bin" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/8.5/executionHistory/executionHistory.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/8.5/executionHistory/executionHistory.bin" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/8.5/executionHistory/executionHistory.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/8.5/executionHistory/executionHistory.lock" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/8.5/fileHashes/fileHashes.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/8.5/fileHashes/fileHashes.bin" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/8.5/fileHashes/fileHashes.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/8.5/fileHashes/fileHashes.lock" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/8.5/fileHashes/resourceHashesCache.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/8.5/fileHashes/resourceHashesCache.bin" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.gradle/buildOutputCleanup/buildOutputCleanup.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/buildOutputCleanup/buildOutputCleanup.lock" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.gradle/buildOutputCleanup/cache.properties" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/buildOutputCleanup/cache.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/file-system.probe" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/file-system.probe" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/setting.gradle.kts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/common/src/main/java/me/nettee/CustomException.Java" beforeDir="false" afterPath="$PROJECT_DIR$/common/src/main/java/me/nettee/CustomException.Java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/common/src/main/java/me/nettee/ErrorCode.Java" beforeDir="false" afterPath="$PROJECT_DIR$/common/src/main/java/me/nettee/ErrorCode.Java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/core/core.settings.gradle.kts" beforeDir="false" afterPath="$PROJECT_DIR$/core/core.settings.gradle.kts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/core/nettee-exception-handler-core/src/main/java/me/nettee/handler/GlobalExceptionHandler.Java" beforeDir="false" afterPath="$PROJECT_DIR$/core/nettee-exception-handler-core/src/main/java/me/nettee/handler/GlobalExceptionHandler.Java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/core/nettee-jpa-core/src/main/java/me/nettee/config/JpaConfig.java" beforeDir="false" afterPath="$PROJECT_DIR$/core/nettee-jpa-core/src/main/java/me/nettee/config/JpaConfig.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/core/nettee-jpa-core/src/main/java/me/nettee/support/BaseTimeEntity.Java" beforeDir="false" afterPath="$PROJECT_DIR$/core/nettee-jpa-core/src/main/java/me/nettee/support/BaseTimeEntity.Java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/core/nettee-jpa-core/src/main/java/me/nettee/support/LongBaseEntity.Java" beforeDir="false" afterPath="$PROJECT_DIR$/core/nettee-jpa-core/src/main/java/me/nettee/support/LongBaseEntity.Java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/core/nettee-jpa-core/src/main/java/me/nettee/support/LongBaseTimeEntity.Java" beforeDir="false" afterPath="$PROJECT_DIR$/core/nettee-jpa-core/src/main/java/me/nettee/support/LongBaseTimeEntity.Java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/core/nettee-jpa-core/src/main/java/me/nettee/support/UuidBaseEntity.Java" beforeDir="false" afterPath="$PROJECT_DIR$/core/nettee-jpa-core/src/main/java/me/nettee/support/UuidBaseEntity.Java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/core/nettee-jpa-core/src/main/java/me/nettee/support/UuidBaseTimeEntity.Java" beforeDir="false" afterPath="$PROJECT_DIR$/core/nettee-jpa-core/src/main/java/me/nettee/support/UuidBaseTimeEntity.Java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/monolithic/client-api/src/main/resources/application.yml" beforeDir="false" afterPath="$PROJECT_DIR$/monolithic/client-api/src/main/resources/application.yml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -24,12 +42,132 @@
   <component name="ExternalProjectsManager">
     <system id="GRADLE">
       <state>
+        <task path="$PROJECT_DIR$/services/board/api/exception">
+          <activation />
+        </task>
         <projects_view>
           <tree_state>
             <expand>
               <path>
                 <item name="" type="6a2764b6:ExternalProjectsStructure$RootNode" />
                 <item name="hexagonal_multi_module_practice" type="f1a62948:ProjectNode" />
+              </path>
+              <path>
+                <item name="" type="6a2764b6:ExternalProjectsStructure$RootNode" />
+                <item name="hexagonal_multi_module_practice" type="f1a62948:ProjectNode" />
+                <item name="board-api" type="2d1252cf:ModuleNode" />
+              </path>
+              <path>
+                <item name="" type="6a2764b6:ExternalProjectsStructure$RootNode" />
+                <item name="hexagonal_multi_module_practice" type="f1a62948:ProjectNode" />
+                <item name="board-api" type="2d1252cf:ModuleNode" />
+                <item name="exception" type="2d1252cf:ModuleNode" />
+              </path>
+              <path>
+                <item name="" type="6a2764b6:ExternalProjectsStructure$RootNode" />
+                <item name="hexagonal_multi_module_practice" type="f1a62948:ProjectNode" />
+                <item name="board-api" type="2d1252cf:ModuleNode" />
+                <item name="exception" type="2d1252cf:ModuleNode" />
+                <item name="Dependencies" type="6de06a37:ExternalSystemViewDefaultContributor$MyDependenciesNode" />
+              </path>
+              <path>
+                <item name="" type="6a2764b6:ExternalProjectsStructure$RootNode" />
+                <item name="hexagonal_multi_module_practice" type="f1a62948:ProjectNode" />
+                <item name="board-api" type="2d1252cf:ModuleNode" />
+                <item name="exception" type="2d1252cf:ModuleNode" />
+                <item name="Dependencies" type="6de06a37:ExternalSystemViewDefaultContributor$MyDependenciesNode" />
+                <item name="compileClasspath" type="62daadca:ExternalSystemViewDefaultContributor$DependencyScopeExternalSystemNode" />
+              </path>
+              <path>
+                <item name="" type="6a2764b6:ExternalProjectsStructure$RootNode" />
+                <item name="hexagonal_multi_module_practice" type="f1a62948:ProjectNode" />
+                <item name="board-api" type="2d1252cf:ModuleNode" />
+                <item name="exception" type="2d1252cf:ModuleNode" />
+                <item name="Dependencies" type="6de06a37:ExternalSystemViewDefaultContributor$MyDependenciesNode" />
+                <item name="compileClasspath" type="62daadca:ExternalSystemViewDefaultContributor$DependencyScopeExternalSystemNode" />
+                <item name="project common" type="b3323d55:ExternalSystemViewDefaultContributor$DependencyExternalSystemNode" />
+              </path>
+              <path>
+                <item name="" type="6a2764b6:ExternalProjectsStructure$RootNode" />
+                <item name="hexagonal_multi_module_practice" type="f1a62948:ProjectNode" />
+                <item name="board-api" type="2d1252cf:ModuleNode" />
+                <item name="exception" type="2d1252cf:ModuleNode" />
+                <item name="Dependencies" type="6de06a37:ExternalSystemViewDefaultContributor$MyDependenciesNode" />
+                <item name="compileClasspath" type="62daadca:ExternalSystemViewDefaultContributor$DependencyScopeExternalSystemNode" />
+                <item name="project common" type="b3323d55:ExternalSystemViewDefaultContributor$DependencyExternalSystemNode" />
+                <item name="org.springframework:spring-web:6.2.3" type="b3323d55:ExternalSystemViewDefaultContributor$DependencyExternalSystemNode" />
+              </path>
+              <path>
+                <item name="" type="6a2764b6:ExternalProjectsStructure$RootNode" />
+                <item name="hexagonal_multi_module_practice" type="f1a62948:ProjectNode" />
+                <item name="board-api" type="2d1252cf:ModuleNode" />
+                <item name="exception" type="2d1252cf:ModuleNode" />
+                <item name="Dependencies" type="6de06a37:ExternalSystemViewDefaultContributor$MyDependenciesNode" />
+                <item name="runtimeClasspath" type="62daadca:ExternalSystemViewDefaultContributor$DependencyScopeExternalSystemNode" />
+              </path>
+              <path>
+                <item name="" type="6a2764b6:ExternalProjectsStructure$RootNode" />
+                <item name="hexagonal_multi_module_practice" type="f1a62948:ProjectNode" />
+                <item name="board-api" type="2d1252cf:ModuleNode" />
+                <item name="exception" type="2d1252cf:ModuleNode" />
+                <item name="Dependencies" type="6de06a37:ExternalSystemViewDefaultContributor$MyDependenciesNode" />
+                <item name="runtimeClasspath" type="62daadca:ExternalSystemViewDefaultContributor$DependencyScopeExternalSystemNode" />
+                <item name="project common" type="b3323d55:ExternalSystemViewDefaultContributor$DependencyExternalSystemNode" />
+              </path>
+              <path>
+                <item name="" type="6a2764b6:ExternalProjectsStructure$RootNode" />
+                <item name="hexagonal_multi_module_practice" type="f1a62948:ProjectNode" />
+                <item name="board-api" type="2d1252cf:ModuleNode" />
+                <item name="exception" type="2d1252cf:ModuleNode" />
+                <item name="Dependencies" type="6de06a37:ExternalSystemViewDefaultContributor$MyDependenciesNode" />
+                <item name="runtimeClasspath" type="62daadca:ExternalSystemViewDefaultContributor$DependencyScopeExternalSystemNode" />
+                <item name="project common" type="b3323d55:ExternalSystemViewDefaultContributor$DependencyExternalSystemNode" />
+                <item name="org.springframework:spring-web:6.2.3" type="b3323d55:ExternalSystemViewDefaultContributor$DependencyExternalSystemNode" />
+              </path>
+              <path>
+                <item name="" type="6a2764b6:ExternalProjectsStructure$RootNode" />
+                <item name="hexagonal_multi_module_practice" type="f1a62948:ProjectNode" />
+                <item name="monolithic-client" type="2d1252cf:ModuleNode" />
+              </path>
+              <path>
+                <item name="" type="6a2764b6:ExternalProjectsStructure$RootNode" />
+                <item name="hexagonal_multi_module_practice" type="f1a62948:ProjectNode" />
+                <item name="monolithic-client" type="2d1252cf:ModuleNode" />
+                <item name="Dependencies" type="6de06a37:ExternalSystemViewDefaultContributor$MyDependenciesNode" />
+              </path>
+              <path>
+                <item name="" type="6a2764b6:ExternalProjectsStructure$RootNode" />
+                <item name="hexagonal_multi_module_practice" type="f1a62948:ProjectNode" />
+                <item name="monolithic-client" type="2d1252cf:ModuleNode" />
+                <item name="Dependencies" type="6de06a37:ExternalSystemViewDefaultContributor$MyDependenciesNode" />
+                <item name="runtimeClasspath" type="62daadca:ExternalSystemViewDefaultContributor$DependencyScopeExternalSystemNode" />
+              </path>
+              <path>
+                <item name="" type="6a2764b6:ExternalProjectsStructure$RootNode" />
+                <item name="hexagonal_multi_module_practice" type="f1a62948:ProjectNode" />
+                <item name="monolithic-client" type="2d1252cf:ModuleNode" />
+                <item name="Dependencies" type="6de06a37:ExternalSystemViewDefaultContributor$MyDependenciesNode" />
+                <item name="runtimeClasspath" type="62daadca:ExternalSystemViewDefaultContributor$DependencyScopeExternalSystemNode" />
+                <item name="project exception-handler-core" type="b3323d55:ExternalSystemViewDefaultContributor$DependencyExternalSystemNode" />
+              </path>
+              <path>
+                <item name="" type="6a2764b6:ExternalProjectsStructure$RootNode" />
+                <item name="hexagonal_multi_module_practice" type="f1a62948:ProjectNode" />
+                <item name="monolithic-client" type="2d1252cf:ModuleNode" />
+                <item name="Dependencies" type="6de06a37:ExternalSystemViewDefaultContributor$MyDependenciesNode" />
+                <item name="runtimeClasspath" type="62daadca:ExternalSystemViewDefaultContributor$DependencyScopeExternalSystemNode" />
+                <item name="project exception-handler-core" type="b3323d55:ExternalSystemViewDefaultContributor$DependencyExternalSystemNode" />
+                <item name="project common" type="b3323d55:ExternalSystemViewDefaultContributor$DependencyExternalSystemNode" />
+              </path>
+              <path>
+                <item name="" type="6a2764b6:ExternalProjectsStructure$RootNode" />
+                <item name="hexagonal_multi_module_practice" type="f1a62948:ProjectNode" />
+                <item name="monolithic-client" type="2d1252cf:ModuleNode" />
+                <item name="Dependencies" type="6de06a37:ExternalSystemViewDefaultContributor$MyDependenciesNode" />
+                <item name="runtimeClasspath" type="62daadca:ExternalSystemViewDefaultContributor$DependencyScopeExternalSystemNode" />
+                <item name="project exception-handler-core" type="b3323d55:ExternalSystemViewDefaultContributor$DependencyExternalSystemNode" />
+                <item name="project common" type="b3323d55:ExternalSystemViewDefaultContributor$DependencyExternalSystemNode" />
+                <item name="org.springframework:spring-web:6.2.3" type="b3323d55:ExternalSystemViewDefaultContributor$DependencyExternalSystemNode" />
               </path>
             </expand>
             <select />
@@ -72,7 +210,7 @@
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "Spring Boot.ClientApiApplication.executor": "Run",
     "Spring Boot.Main.executor": "Run",
-    "git-widget-placeholder": "refactoring",
+    "git-widget-placeholder": "main",
     "jdk.selected.JAVA_MODULE": "21",
     "kotlin-language-version-configured": "true",
     "last_opened_file_path": "/Users/joey/Desktop/code/nettee/hexagonal_multi_module_practice",
@@ -95,7 +233,26 @@
     </key>
   </component>
   <component name="RunManager" selected="Spring Boot.ClientApiApplication">
+    <configuration default="true" type="JetRunConfigurationType">
+      <module name="hexagonal_multi_module_practice.common.main" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration default="true" type="KotlinStandaloneScriptRunConfigurationType">
+      <module name="hexagonal_multi_module_practice.common.main" />
+      <option name="filePath" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="ClientApiApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" nameIsGenerated="true">
+      <option name="ACTIVE_PROFILES" value="local" />
+      <envs>
+        <env name="DEMO_POSTGRESQL_URL" value="jdbc:postgresql://localhost:5433/demo" />
+        <env name="DEMO_POSTGRESQL_USERNAME" value="root" />
+        <env name="DEMO_POSTGRESQL_PASSWORD" value="root" />
+      </envs>
       <module name="hexagonal_multi_module_practice.monolithic-client.main" />
       <option name="SPRING_BOOT_MAIN_CLASS" value="me.nettee.client.ClientApiApplication" />
       <method v="2">
@@ -115,6 +272,10 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <list>
+      <item itemvalue="Spring Boot.ClientApiApplication" />
+      <item itemvalue="Spring Boot.Main" />
+    </list>
   </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">

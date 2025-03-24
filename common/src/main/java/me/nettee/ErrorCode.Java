@@ -8,7 +8,7 @@ import java.util.function.Supplier;
 public interface ErrorCode {
     String name(); // enum default method
     String message();
-
+    
     HttpStatus httpStatus();
     RuntimeException exception();
     RuntimeException exception(Throwable cause);

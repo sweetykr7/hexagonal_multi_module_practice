@@ -16,7 +16,7 @@ import java.time.Instant;
 public abstract class BaseTimeEntity implements Serializable {
     @CreatedDate
     private Instant createdAt;
-
+    
     @LastModifiedDate
     private Instant updatedAt;
 }

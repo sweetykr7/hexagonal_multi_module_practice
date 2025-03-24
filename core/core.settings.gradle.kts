@@ -2,8 +2,8 @@ val core = rootDir.resolve("core").walkTopDown().maxDepth(3).filter(File::isDire
 
 // CORE
 include(
-        "exception-handler-core"
-        ,"jpa-core"
+    "exception-handler-core"
+    ,"jpa-core"
 )
 
 project(":exception-handler-core").projectDir = core["nettee-exception-handler-core"]!!
